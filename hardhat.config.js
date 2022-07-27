@@ -18,9 +18,7 @@ module.exports = {
         },
     },
     gasReporter: {
-        enabled: false,
-        outputFile: "gas-report.txt",
-        noColors: true,
+        enabled: true,
     },
     etherscan: {
         apiKey: process.env.ETHERSCAN_API_KEY,
